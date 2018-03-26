@@ -1,0 +1,63 @@
+<div class="content">
+    <div class="header">
+        <h1 class="page-title">发布留言</h1>
+    </div>
+            <ul class="breadcrumb">
+        <li><a href="index.html">Home</a> <span class="divider">/</span></li>
+        <li class="active">发布留言</li>
+    </ul>
+
+    <div class="container-fluid">
+        <div class="row-fluid">
+                
+            <div class="btn-toolbar">
+                <button class="btn btn-primary" onClick="location='{:U('contact/index')}'"><i class="icon-list"></i> 留言列表</button>
+              <div class="btn-group">
+              </div>
+            </div>
+            <div class="well">
+                <div id="myTabContent" class="tab-content">
+                  <div class="tab-pane active in" id="home">
+                    <form method="post">
+                        <label>留言名称</label>
+                        <input type="text" value="{$contact_info.contact_name}" name="contact_name" class="input-xxlarge">
+                        <label>留言电话</label>
+                        <input type="text" value="{$contact_info.contact_phone}" name="contact_phone" class="input-xxlarge">
+                        <label>留言时间</label>
+                        <input type="date" value="{$contact_info.contact_time|date='Y-m-d',###}" name="contact_time" class="input-xxlarge">
+                        <label>邮箱</label>
+                        <input type="email" value="{$contact_info.contact_email}" name="contact_email" class="input-xxlarge">
+                        <label>审核状态</label>
+                        <input type="radio" {$contact_info['contact_state']?"checked":""} name="contact_state" value="1" class="input-xxlarge">已审核
+                        <input type="radio" {$contact_info['contact_state']?"":"checked"} name="contact_state" value="0" class="input-xxlarge">未审核
+                        <label>留言内容</label>
+                        <textarea value="Smith" name="contact_content" rows="3" class="input-xxlarge">{$contact_info.contact_content}</textarea>
+                        <label></label>
+                        <input class="btn btn-primary" type="submit" value="提交" />
+                    </form>
+                  </div>
+              </div>
+
+            </div>
+
+            <div class="modal small hide fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                <h3 id="myModalLabel">Delete Confirmation</h3>
+              </div>
+              <div class="modal-body">
+                
+                <p class="error-text"><i class="icon-warning-sign modal-icon"></i>Are you sure you want to delete the user?</p>
+              </div>
+              <div class="modal-footer">
+                <button class="btn" data-dismiss="modal" aria-hidden="true">Cancel</button>
+                <button class="btn btn-danger" data-dismiss="modal">Delete</button>
+              </div>
+            </div>
+
+
+
+                
+        </div>
+    </div>
+</div>

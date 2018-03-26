@@ -1,0 +1,62 @@
+<div class="content">
+    <div class="header">
+        <h1 class="page-title">发布文章</h1>
+    </div>
+            <ul class="breadcrumb">
+        <li><a href="index.html">Home</a> <span class="divider">/</span></li>
+        <li class="active">发布文章</li>
+    </ul>
+
+    <div class="container-fluid">
+        <div class="row-fluid">
+                                
+            <div class="btn-toolbar">
+                <button class="btn btn-primary" onClick="location='{:U('Article/index')}'"><i class="icon-list"></i> 文章列表</button>
+              <div class="btn-group">
+              </div>
+            </div>
+            <div class="well">
+                <div id="myTabContent" class="tab-content">
+                  <div class="tab-pane active in" id="home">
+                    <form action="{:U('article/add')}" name="ArticleForm" method="post" enctype="multipart/form-data">
+                        <label>文章标题</label>
+                        <input type="text" name="article_title" value="" class="input-xxlarge">
+                        <label>文章作者</label>
+                        <input type="text" name="article_author" value="" class="input-xxlarge">
+                        <label>添加时间</label>
+                        <input type="date" name="article_time" value="" class="input-xxlarge">
+                        <label>文章图片</label>
+                        <input type="file" name="article_img" value="" class="input-xxlarge">
+                        <label>文章描述</label>
+                        <textarea value="Smith" rows="3" name="article_desc" class="input-xxlarge"></textarea>
+                        <label>文章内容</label>
+                        <textarea value="Smith" rows="3" name="article_content" class="input-xxlarge"></textarea>
+                        <label></label>
+                        <input class="btn btn-primary" type="submit" value="提交" />
+                    </form>
+                  </div>
+              </div>
+
+            </div>
+
+            <div class="modal small hide fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                <h3 id="myModalLabel">Delete Confirmation</h3>
+              </div>
+              <div class="modal-body">
+                
+                <p class="error-text"><i class="icon-warning-sign modal-icon"></i>Are you sure you want to delete the user?</p>
+              </div>
+              <div class="modal-footer">
+                <button class="btn" data-dismiss="modal" aria-hidden="true">Cancel</button>
+                <button class="btn btn-danger" data-dismiss="modal">Delete</button>
+              </div>
+            </div>
+
+
+                                
+
+        </div>
+    </div>
+</div>

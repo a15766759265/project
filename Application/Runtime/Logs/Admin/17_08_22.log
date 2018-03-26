@@ -1,0 +1,2172 @@
+[ 2017-08-22T11:54:33+08:00 ] 127.0.0.1 /GreenCMS/index.php/admin/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\phpStudy\WWW\GreenCMS\ThinkPHP\Common\functions.php 第 1272 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.050003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.050003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-22T11:54:37+08:00 ] 127.0.0.1 /GreenCMS/index.php/Admin/login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `green_admin` [ RunTime:0.0390s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\phpStudy\WWW\GreenCMS\ThinkPHP\Common\functions.php 第 1272 行.
+SQL: SHOW COLUMNS FROM `green_admin` [ RunTime:0.0090s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-22T11:54:37+08:00 ] 127.0.0.1 /GreenCMS/index.php/Admin/login/imgcode.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `green_admin` [ RunTime:0.0060s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\phpStudy\WWW\GreenCMS\ThinkPHP\Common\functions.php 第 1272 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-22T11:54:46+08:00 ] 127.0.0.1 /GreenCMS/index.php/Admin/login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `green_admin` [ RunTime:0.0080s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\phpStudy\WWW\GreenCMS\ThinkPHP\Common\functions.php 第 1272 行.
+SQL: SHOW COLUMNS FROM `green_admin` [ RunTime:0.0060s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\GreenCMS\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\GreenCMS\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: SELECT * FROM `green_admin` WHERE `admin_name` = 'admin' AND `admin_pwd` = '21232f297a57a5a743894a0e4a801fc3' LIMIT 1   [ RunTime:0.0420s ]
+
+[ 2017-08-22T11:54:49+08:00 ] 127.0.0.1 /GreenCMS/index.php/Admin/login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `green_admin` [ RunTime:0.0060s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\phpStudy\WWW\GreenCMS\ThinkPHP\Common\functions.php 第 1272 行.
+SQL: SHOW COLUMNS FROM `green_admin` [ RunTime:0.0060s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-22T11:54:49+08:00 ] 127.0.0.1 /GreenCMS/index.php/Admin/login/imgcode.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `green_admin` [ RunTime:0.0100s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\phpStudy\WWW\GreenCMS\ThinkPHP\Common\functions.php 第 1272 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-22T11:54:59+08:00 ] 127.0.0.1 /GreenCMS/index.php/Admin/login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `green_admin` [ RunTime:0.0060s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\phpStudy\WWW\GreenCMS\ThinkPHP\Common\functions.php 第 1272 行.
+SQL: SHOW COLUMNS FROM `green_admin` [ RunTime:0.0060s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\GreenCMS\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\GreenCMS\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: SELECT * FROM `green_admin` WHERE `admin_name` = 'admin' AND `admin_pwd` = '21232f297a57a5a743894a0e4a801fc3' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-08-22T11:55:01+08:00 ] 127.0.0.1 /GreenCMS/index.php/Admin/login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `green_admin` [ RunTime:0.0050s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\phpStudy\WWW\GreenCMS\ThinkPHP\Common\functions.php 第 1272 行.
+SQL: SHOW COLUMNS FROM `green_admin` [ RunTime:0.0070s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-22T11:55:11+08:00 ] 127.0.0.1 /GreenCMS/index.php/Admin/login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `green_admin` [ RunTime:0.0060s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\phpStudy\WWW\GreenCMS\ThinkPHP\Common\functions.php 第 1272 行.
+SQL: SHOW COLUMNS FROM `green_admin` [ RunTime:0.0060s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\GreenCMS\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\GreenCMS\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+
+[ 2017-08-22T11:55:12+08:00 ] 127.0.0.1 /GreenCMS/index.php/Admin/login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `green_admin` [ RunTime:0.0060s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\phpStudy\WWW\GreenCMS\ThinkPHP\Common\functions.php 第 1272 行.
+SQL: SHOW COLUMNS FROM `green_admin` [ RunTime:0.0080s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-22T11:55:12+08:00 ] 127.0.0.1 /GreenCMS/index.php/Admin/login/imgcode.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `green_admin` [ RunTime:0.0110s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\phpStudy\WWW\GreenCMS\ThinkPHP\Common\functions.php 第 1272 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-22T11:55:20+08:00 ] 127.0.0.1 /GreenCMS/index.php/Admin/login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `green_admin` [ RunTime:0.0070s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\phpStudy\WWW\GreenCMS\ThinkPHP\Common\functions.php 第 1272 行.
+SQL: SHOW COLUMNS FROM `green_admin` [ RunTime:0.0070s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\GreenCMS\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\GreenCMS\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: SELECT * FROM `green_admin` WHERE `admin_name` = 'admin' AND `admin_pwd` = '0192023a7bbd73250516f069df18b500' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-08-22T11:55:22+08:00 ] 127.0.0.1 /GreenCMS/index.php/Admin/login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `green_admin` [ RunTime:0.0060s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\phpStudy\WWW\GreenCMS\ThinkPHP\Common\functions.php 第 1272 行.
+SQL: SHOW COLUMNS FROM `green_admin` [ RunTime:0.0060s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-22T11:55:51+08:00 ] 127.0.0.1 /GreenCMS/index.php/Admin/login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `green_admin` [ RunTime:0.0060s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\phpStudy\WWW\GreenCMS\ThinkPHP\Common\functions.php 第 1272 行.
+SQL: SHOW COLUMNS FROM `green_admin` [ RunTime:0.0070s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\GreenCMS\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\GreenCMS\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+
+[ 2017-08-22T11:55:52+08:00 ] 127.0.0.1 /GreenCMS/index.php/Admin/login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `green_admin` [ RunTime:0.0080s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\phpStudy\WWW\GreenCMS\ThinkPHP\Common\functions.php 第 1272 行.
+SQL: SHOW COLUMNS FROM `green_admin` [ RunTime:0.0070s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-22T11:55:52+08:00 ] 127.0.0.1 /GreenCMS/index.php/Admin/login/imgcode.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `green_admin` [ RunTime:0.0090s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\phpStudy\WWW\GreenCMS\ThinkPHP\Common\functions.php 第 1272 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-22T11:55:53+08:00 ] 127.0.0.1 /GreenCMS/index.php/Admin/login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `green_admin` [ RunTime:0.0060s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\phpStudy\WWW\GreenCMS\ThinkPHP\Common\functions.php 第 1272 行.
+SQL: SHOW COLUMNS FROM `green_admin` [ RunTime:0.0070s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-22T11:55:53+08:00 ] 127.0.0.1 /GreenCMS/index.php/Admin/login/imgcode.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `green_admin` [ RunTime:0.0110s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\phpStudy\WWW\GreenCMS\ThinkPHP\Common\functions.php 第 1272 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-22T11:56:03+08:00 ] 127.0.0.1 /GreenCMS/index.php/Admin/login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `green_admin` [ RunTime:0.0100s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\phpStudy\WWW\GreenCMS\ThinkPHP\Common\functions.php 第 1272 行.
+SQL: SHOW COLUMNS FROM `green_admin` [ RunTime:0.0070s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\GreenCMS\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\GreenCMS\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: SELECT * FROM `green_admin` WHERE `admin_name` = 'admin' AND `admin_pwd` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-22T11:56:04+08:00 ] 127.0.0.1 /GreenCMS/index.php/Admin/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\phpStudy\WWW\GreenCMS\ThinkPHP\Common\functions.php 第 1272 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-22T11:57:26+08:00 ] 127.0.0.1 /GreenCMS/index.php/Admin/Article/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\phpStudy\WWW\GreenCMS\ThinkPHP\Common\functions.php 第 1272 行.
+SQL: SHOW COLUMNS FROM `green_article` [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `green_article` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `green_article` ORDER BY article_id LIMIT 0,7   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.072004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.072004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-22T11:57:29+08:00 ] 127.0.0.1 /GreenCMS/index.php/Admin/Article/edit/article_id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\phpStudy\WWW\GreenCMS\ThinkPHP\Common\functions.php 第 1272 行.
+SQL: SHOW COLUMNS FROM `green_article` [ RunTime:0.0070s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: article_info D:\phpStudy\WWW\GreenCMS\Application\Runtime\Cache\Admin\761055de2f430bef08441163fbb8bda7.php 第 94 行.
+NOTIC: [8] Undefined variable: article_info D:\phpStudy\WWW\GreenCMS\Application\Runtime\Cache\Admin\761055de2f430bef08441163fbb8bda7.php 第 96 行.
+NOTIC: [8] Undefined variable: article_info D:\phpStudy\WWW\GreenCMS\Application\Runtime\Cache\Admin\761055de2f430bef08441163fbb8bda7.php 第 98 行.
+NOTIC: [8] Undefined variable: article_info D:\phpStudy\WWW\GreenCMS\Application\Runtime\Cache\Admin\761055de2f430bef08441163fbb8bda7.php 第 101 行.
+NOTIC: [8] Undefined variable: article_info D:\phpStudy\WWW\GreenCMS\Application\Runtime\Cache\Admin\761055de2f430bef08441163fbb8bda7.php 第 103 行.
+NOTIC: [8] Undefined variable: article_info D:\phpStudy\WWW\GreenCMS\Application\Runtime\Cache\Admin\761055de2f430bef08441163fbb8bda7.php 第 105 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.048003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.048003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-22T11:57:55+08:00 ] 127.0.0.1 /GreenCMS/index.php/Admin/Article/edit/article_id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\phpStudy\WWW\GreenCMS\ThinkPHP\Common\functions.php 第 1272 行.
+SQL: SHOW COLUMNS FROM `green_article` [ RunTime:0.0060s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: article_info D:\phpStudy\WWW\GreenCMS\Application\Runtime\Cache\Admin\761055de2f430bef08441163fbb8bda7.php 第 94 行.
+NOTIC: [8] Undefined variable: article_info D:\phpStudy\WWW\GreenCMS\Application\Runtime\Cache\Admin\761055de2f430bef08441163fbb8bda7.php 第 96 行.
+NOTIC: [8] Undefined variable: article_info D:\phpStudy\WWW\GreenCMS\Application\Runtime\Cache\Admin\761055de2f430bef08441163fbb8bda7.php 第 98 行.
+NOTIC: [8] Undefined variable: article_info D:\phpStudy\WWW\GreenCMS\Application\Runtime\Cache\Admin\761055de2f430bef08441163fbb8bda7.php 第 101 行.
+NOTIC: [8] Undefined variable: article_info D:\phpStudy\WWW\GreenCMS\Application\Runtime\Cache\Admin\761055de2f430bef08441163fbb8bda7.php 第 103 行.
+NOTIC: [8] Undefined variable: article_info D:\phpStudy\WWW\GreenCMS\Application\Runtime\Cache\Admin\761055de2f430bef08441163fbb8bda7.php 第 105 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-22T11:58:02+08:00 ] 127.0.0.1 /GreenCMS/index.php/Admin/Article/edit/article_id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\phpStudy\WWW\GreenCMS\ThinkPHP\Common\functions.php 第 1272 行.
+SQL: SHOW COLUMNS FROM `green_article` [ RunTime:0.0060s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: article_info D:\phpStudy\WWW\GreenCMS\Application\Runtime\Cache\Admin\761055de2f430bef08441163fbb8bda7.php 第 94 行.
+NOTIC: [8] Undefined variable: article_info D:\phpStudy\WWW\GreenCMS\Application\Runtime\Cache\Admin\761055de2f430bef08441163fbb8bda7.php 第 96 行.
+NOTIC: [8] Undefined variable: article_info D:\phpStudy\WWW\GreenCMS\Application\Runtime\Cache\Admin\761055de2f430bef08441163fbb8bda7.php 第 98 行.
+NOTIC: [8] Undefined variable: article_info D:\phpStudy\WWW\GreenCMS\Application\Runtime\Cache\Admin\761055de2f430bef08441163fbb8bda7.php 第 101 行.
+NOTIC: [8] Undefined variable: article_info D:\phpStudy\WWW\GreenCMS\Application\Runtime\Cache\Admin\761055de2f430bef08441163fbb8bda7.php 第 103 行.
+NOTIC: [8] Undefined variable: article_info D:\phpStudy\WWW\GreenCMS\Application\Runtime\Cache\Admin\761055de2f430bef08441163fbb8bda7.php 第 105 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-22T11:58:07+08:00 ] 127.0.0.1 /GreenCMS/index.php/Admin/Procate/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `green_product_cate` [ RunTime:0.0350s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `green_product_cate` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `green_product_cate` ORDER BY procate_id LIMIT 0,7   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-22T11:58:09+08:00 ] 127.0.0.1 /GreenCMS/index.php/Admin/procate/edit/procate_id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `green_product_cate` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `green_product_cate` WHERE ( procate_id = 1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `green_product_cate` [ RunTime:0.0080s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-22T12:18:08+08:00 ] 127.0.0.1 /GreenCMS/index.php/Admin/Article/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\phpStudy\WWW\GreenCMS\ThinkPHP\Common\functions.php 第 1272 行.
+SQL: SHOW COLUMNS FROM `green_article` [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `green_article` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `green_article` ORDER BY article_id LIMIT 0,7   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-22T12:18:10+08:00 ] 127.0.0.1 /GreenCMS/index.php/Admin/Article/edit/article_id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\phpStudy\WWW\GreenCMS\ThinkPHP\Common\functions.php 第 1272 行.
+SQL: SHOW COLUMNS FROM `green_article` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `green_article` WHERE ( article_id = 1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `green_article` [ RunTime:0.0070s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-22T12:34:13+08:00 ] 127.0.0.1 /GreenCMS/index.php/admin/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\phpStudy\WWW\GreenCMS\ThinkPHP\Common\functions.php 第 1272 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-22T12:34:15+08:00 ] 127.0.0.1 /GreenCMS/index.php/Admin/Article/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\phpStudy\WWW\GreenCMS\ThinkPHP\Common\functions.php 第 1272 行.
+SQL: SHOW COLUMNS FROM `green_article` [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `green_article` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `green_article` ORDER BY article_id LIMIT 0,7   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-22T12:34:16+08:00 ] 127.0.0.1 /GreenCMS/index.php/Admin/Product/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\phpStudy\WWW\GreenCMS\ThinkPHP\Common\functions.php 第 1272 行.
+SQL: SHOW COLUMNS FROM `green_product` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `green_product_cate` [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `green_product` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM green_product pro LEFT JOIN green_product_cate AS cate ON pro.procate_id = cate.procate_id  ORDER BY pro.product_id DESC LIMIT 0,7   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-22T12:34:19+08:00 ] 127.0.0.1 /GreenCMS/index.php/Admin/Product/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\phpStudy\WWW\GreenCMS\ThinkPHP\Common\functions.php 第 1272 行.
+SQL: SHOW COLUMNS FROM `green_product` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `green_product_cate` [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `green_product` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM green_product pro LEFT JOIN green_product_cate AS cate ON pro.procate_id = cate.procate_id  ORDER BY pro.product_id DESC LIMIT 0,7   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-22T12:34:20+08:00 ] 127.0.0.1 /GreenCMS/index.php/Admin/Product/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\phpStudy\WWW\GreenCMS\ThinkPHP\Common\functions.php 第 1272 行.
+SQL: SHOW COLUMNS FROM `green_product` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `green_product_cate` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `green_product` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `green_product_cate`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-22T12:35:38+08:00 ] 127.0.0.1 /GreenCMS/index.php/Admin/Product/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\phpStudy\WWW\GreenCMS\ThinkPHP\Common\functions.php 第 1272 行.
+SQL: SHOW COLUMNS FROM `green_product` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `green_product_cate` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `green_product` [ RunTime:0.0050s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\GreenCMS\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\GreenCMS\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\phpStudy\WWW\GreenCMS\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+
+[ 2017-08-22T12:49:01+08:00 ] 127.0.0.1 /GreenCMS/index.php/admin/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\phpStudy\WWW\GreenCMS\ThinkPHP\Common\functions.php 第 1272 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-22T12:49:03+08:00 ] 127.0.0.1 /GreenCMS/index.php/Admin/Product/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\phpStudy\WWW\GreenCMS\ThinkPHP\Common\functions.php 第 1272 行.
+SQL: SHOW COLUMNS FROM `green_product` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `green_product_cate` [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `green_product` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM green_product pro LEFT JOIN green_product_cate AS cate ON pro.procate_id = cate.procate_id  ORDER BY pro.product_id DESC LIMIT 0,7   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-22T12:49:08+08:00 ] 127.0.0.1 /GreenCMS/index.php/Admin/product/edit/product_id/31.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\phpStudy\WWW\GreenCMS\ThinkPHP\Common\functions.php 第 1272 行.
+SQL: SHOW COLUMNS FROM `green_product` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `green_product_cate` [ RunTime:0.0060s ]
+SQL: SELECT * FROM green_product pro INNER JOIN green_product_cate AS cate ON pro.procate_id = cate.procate_id  WHERE ( pro.product_id = 31 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `green_product` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `green_product_cate`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-22T12:49:13+08:00 ] 127.0.0.1 /GreenCMS/index.php/Admin/product/edit/product_id/29.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\phpStudy\WWW\GreenCMS\ThinkPHP\Common\functions.php 第 1272 行.
+SQL: SHOW COLUMNS FROM `green_product` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `green_product_cate` [ RunTime:0.0060s ]
+SQL: SELECT * FROM green_product pro INNER JOIN green_product_cate AS cate ON pro.procate_id = cate.procate_id  WHERE ( pro.product_id = 29 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `green_product` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `green_product_cate`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-22T12:49:18+08:00 ] 127.0.0.1 /GreenCMS/index.php/Admin/product/edit/product_id/25.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\phpStudy\WWW\GreenCMS\ThinkPHP\Common\functions.php 第 1272 行.
+SQL: SHOW COLUMNS FROM `green_product` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `green_product_cate` [ RunTime:0.0060s ]
+SQL: SELECT * FROM green_product pro INNER JOIN green_product_cate AS cate ON pro.procate_id = cate.procate_id  WHERE ( pro.product_id = 25 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `green_product` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `green_product_cate`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-22T12:49:24+08:00 ] 127.0.0.1 /GreenCMS/index.php/Admin/Product/index/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\phpStudy\WWW\GreenCMS\ThinkPHP\Common\functions.php 第 1272 行.
+SQL: SHOW COLUMNS FROM `green_product` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `green_product_cate` [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `green_product` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM green_product pro LEFT JOIN green_product_cate AS cate ON pro.procate_id = cate.procate_id  ORDER BY pro.product_id DESC LIMIT 7,7   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-22T12:49:26+08:00 ] 127.0.0.1 /GreenCMS/index.php/Admin/product/edit/product_id/18.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\phpStudy\WWW\GreenCMS\ThinkPHP\Common\functions.php 第 1272 行.
+SQL: SHOW COLUMNS FROM `green_product` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `green_product_cate` [ RunTime:0.0060s ]
+SQL: SELECT * FROM green_product pro INNER JOIN green_product_cate AS cate ON pro.procate_id = cate.procate_id  WHERE ( pro.product_id = 18 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `green_product` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `green_product_cate`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-22T12:49:40+08:00 ] 127.0.0.1 /GreenCMS/index.php/Admin/Product/index/p/4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\phpStudy\WWW\GreenCMS\ThinkPHP\Common\functions.php 第 1272 行.
+SQL: SHOW COLUMNS FROM `green_product` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `green_product_cate` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `green_product` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM green_product pro LEFT JOIN green_product_cate AS cate ON pro.procate_id = cate.procate_id  ORDER BY pro.product_id DESC LIMIT 21,7   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-22T12:49:42+08:00 ] 127.0.0.1 /GreenCMS/index.php/Admin/Product/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\phpStudy\WWW\GreenCMS\ThinkPHP\Common\functions.php 第 1272 行.
+SQL: SHOW COLUMNS FROM `green_product` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `green_product_cate` [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `green_product` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM green_product pro LEFT JOIN green_product_cate AS cate ON pro.procate_id = cate.procate_id  ORDER BY pro.product_id DESC LIMIT 0,7   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-22T12:49:44+08:00 ] 127.0.0.1 /GreenCMS/index.php/Admin/product/edit/product_id/30.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\phpStudy\WWW\GreenCMS\ThinkPHP\Common\functions.php 第 1272 行.
+SQL: SHOW COLUMNS FROM `green_product` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `green_product_cate` [ RunTime:0.0060s ]
+SQL: SELECT * FROM green_product pro INNER JOIN green_product_cate AS cate ON pro.procate_id = cate.procate_id  WHERE ( pro.product_id = 30 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `green_product` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `green_product_cate`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-22T12:50:01+08:00 ] 127.0.0.1 /GreenCMS/index.php/Admin/Product/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\phpStudy\WWW\GreenCMS\ThinkPHP\Common\functions.php 第 1272 行.
+SQL: SHOW COLUMNS FROM `green_product` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `green_product_cate` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `green_product` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `green_product_cate`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-22T12:50:05+08:00 ] 127.0.0.1 /GreenCMS/index.php/Admin/product/edit/product_id/28.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\phpStudy\WWW\GreenCMS\ThinkPHP\Common\functions.php 第 1272 行.
+SQL: SHOW COLUMNS FROM `green_product` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `green_product_cate` [ RunTime:0.0050s ]
+SQL: SELECT * FROM green_product pro INNER JOIN green_product_cate AS cate ON pro.procate_id = cate.procate_id  WHERE ( pro.product_id = 28 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `green_product` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `green_product_cate`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-22T12:50:09+08:00 ] 127.0.0.1 /GreenCMS/index.php/Admin/product/edit/product_id/25.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\phpStudy\WWW\GreenCMS\ThinkPHP\Common\functions.php 第 1272 行.
+SQL: SHOW COLUMNS FROM `green_product` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `green_product_cate` [ RunTime:0.0050s ]
+SQL: SELECT * FROM green_product pro INNER JOIN green_product_cate AS cate ON pro.procate_id = cate.procate_id  WHERE ( pro.product_id = 25 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `green_product` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `green_product_cate`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-22T12:50:54+08:00 ] 127.0.0.1 /GreenCMS/index.php/Admin/Product/index/p/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\phpStudy\WWW\GreenCMS\ThinkPHP\Common\functions.php 第 1272 行.
+SQL: SHOW COLUMNS FROM `green_product` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `green_product_cate` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `green_product` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM green_product pro LEFT JOIN green_product_cate AS cate ON pro.procate_id = cate.procate_id  ORDER BY pro.product_id DESC LIMIT 14,7   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-22T12:51:00+08:00 ] 127.0.0.1 /GreenCMS/index.php/Admin/product/edit/product_id/17.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\phpStudy\WWW\GreenCMS\ThinkPHP\Common\functions.php 第 1272 行.
+SQL: SHOW COLUMNS FROM `green_product` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `green_product_cate` [ RunTime:0.0050s ]
+SQL: SELECT * FROM green_product pro INNER JOIN green_product_cate AS cate ON pro.procate_id = cate.procate_id  WHERE ( pro.product_id = 17 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `green_product` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `green_product_cate`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-22T12:51:08+08:00 ] 127.0.0.1 /GreenCMS/index.php/Admin/product/edit/product_id/17.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\phpStudy\WWW\GreenCMS\ThinkPHP\Common\functions.php 第 1272 行.
+SQL: SHOW COLUMNS FROM `green_product` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `green_product_cate` [ RunTime:0.0060s ]
+SQL: SELECT * FROM green_product pro INNER JOIN green_product_cate AS cate ON pro.procate_id = cate.procate_id  WHERE ( pro.product_id = 17 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `green_product` [ RunTime:0.0060s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\GreenCMS\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\GreenCMS\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\phpStudy\WWW\GreenCMS\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: UPDATE `green_product` SET `product_name`='',`product_time`='-28800',`product_desc`='',`product_content`='',`procate_id`='0',`product_img`='Uploads/2017-08-22/599bb83cc3ded.jpg' WHERE `product_id` = 17 [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-22T12:51:09+08:00 ] 127.0.0.1 /GreenCMS/index.php/Admin/product/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\phpStudy\WWW\GreenCMS\ThinkPHP\Common\functions.php 第 1272 行.
+SQL: SHOW COLUMNS FROM `green_product` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `green_product_cate` [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `green_product` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM green_product pro LEFT JOIN green_product_cate AS cate ON pro.procate_id = cate.procate_id  ORDER BY pro.product_id DESC LIMIT 0,7   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-22T12:51:12+08:00 ] 127.0.0.1 /GreenCMS/index.php/Admin/Product/index/p/4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\phpStudy\WWW\GreenCMS\ThinkPHP\Common\functions.php 第 1272 行.
+SQL: SHOW COLUMNS FROM `green_product` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `green_product_cate` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `green_product` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM green_product pro LEFT JOIN green_product_cate AS cate ON pro.procate_id = cate.procate_id  ORDER BY pro.product_id DESC LIMIT 21,7   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-22T12:51:13+08:00 ] 127.0.0.1 /GreenCMS/index.php/Admin/Product/index/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\phpStudy\WWW\GreenCMS\ThinkPHP\Common\functions.php 第 1272 行.
+SQL: SHOW COLUMNS FROM `green_product` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `green_product_cate` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `green_product` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM green_product pro LEFT JOIN green_product_cate AS cate ON pro.procate_id = cate.procate_id  ORDER BY pro.product_id DESC LIMIT 7,7   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-22T12:51:16+08:00 ] 127.0.0.1 /GreenCMS/index.php/Admin/Product/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\phpStudy\WWW\GreenCMS\ThinkPHP\Common\functions.php 第 1272 行.
+SQL: SHOW COLUMNS FROM `green_product` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `green_product_cate` [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `green_product` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM green_product pro LEFT JOIN green_product_cate AS cate ON pro.procate_id = cate.procate_id  ORDER BY pro.product_id DESC LIMIT 0,7   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-08-22T12:51:18+08:00 ] 127.0.0.1 /GreenCMS/index.php/Admin/Product/index/p/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\phpStudy\WWW\GreenCMS\ThinkPHP\Common\functions.php 第 1272 行.
+SQL: SHOW COLUMNS FROM `green_product` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `green_product_cate` [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `green_product` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM green_product pro LEFT JOIN green_product_cate AS cate ON pro.procate_id = cate.procate_id  ORDER BY pro.product_id DESC LIMIT 14,7   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-22T12:51:19+08:00 ] 127.0.0.1 /GreenCMS/index.php/Admin/Product/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\phpStudy\WWW\GreenCMS\ThinkPHP\Common\functions.php 第 1272 行.
+SQL: SHOW COLUMNS FROM `green_product` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `green_product_cate` [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `green_product` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM green_product pro LEFT JOIN green_product_cate AS cate ON pro.procate_id = cate.procate_id  ORDER BY pro.product_id DESC LIMIT 0,7   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-22T12:51:20+08:00 ] 127.0.0.1 /GreenCMS/index.php/Admin/Product/index/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\phpStudy\WWW\GreenCMS\ThinkPHP\Common\functions.php 第 1272 行.
+SQL: SHOW COLUMNS FROM `green_product` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `green_product_cate` [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `green_product` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM green_product pro LEFT JOIN green_product_cate AS cate ON pro.procate_id = cate.procate_id  ORDER BY pro.product_id DESC LIMIT 7,7   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-22T12:51:22+08:00 ] 127.0.0.1 /GreenCMS/index.php/Admin/Product/index/p/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\phpStudy\WWW\GreenCMS\ThinkPHP\Common\functions.php 第 1272 行.
+SQL: SHOW COLUMNS FROM `green_product` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `green_product_cate` [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `green_product` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM green_product pro LEFT JOIN green_product_cate AS cate ON pro.procate_id = cate.procate_id  ORDER BY pro.product_id DESC LIMIT 14,7   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-22T12:51:23+08:00 ] 127.0.0.1 /GreenCMS/index.php/Admin/Product/index/p/4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\phpStudy\WWW\GreenCMS\ThinkPHP\Common\functions.php 第 1272 行.
+SQL: SHOW COLUMNS FROM `green_product` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `green_product_cate` [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `green_product` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM green_product pro LEFT JOIN green_product_cate AS cate ON pro.procate_id = cate.procate_id  ORDER BY pro.product_id DESC LIMIT 21,7   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-22T12:51:25+08:00 ] 127.0.0.1 /GreenCMS/index.php/Admin/Product/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\phpStudy\WWW\GreenCMS\ThinkPHP\Common\functions.php 第 1272 行.
+SQL: SHOW COLUMNS FROM `green_product` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `green_product_cate` [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `green_product` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM green_product pro LEFT JOIN green_product_cate AS cate ON pro.procate_id = cate.procate_id  ORDER BY pro.product_id DESC LIMIT 0,7   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-22T12:51:27+08:00 ] 127.0.0.1 /GreenCMS/index.php/Admin/Product/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\phpStudy\WWW\GreenCMS\ThinkPHP\Common\functions.php 第 1272 行.
+SQL: SHOW COLUMNS FROM `green_product` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `green_product_cate` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `green_product` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM green_product pro LEFT JOIN green_product_cate AS cate ON pro.procate_id = cate.procate_id  ORDER BY pro.product_id DESC LIMIT 0,7   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-22T12:51:29+08:00 ] 127.0.0.1 /GreenCMS/index.php/Admin/Product/index/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\phpStudy\WWW\GreenCMS\ThinkPHP\Common\functions.php 第 1272 行.
+SQL: SHOW COLUMNS FROM `green_product` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `green_product_cate` [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `green_product` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM green_product pro LEFT JOIN green_product_cate AS cate ON pro.procate_id = cate.procate_id  ORDER BY pro.product_id DESC LIMIT 7,7   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-08-22T12:51:31+08:00 ] 127.0.0.1 /GreenCMS/index.php/Admin/Product/index/p/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\phpStudy\WWW\GreenCMS\ThinkPHP\Common\functions.php 第 1272 行.
+SQL: SHOW COLUMNS FROM `green_product` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `green_product_cate` [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `green_product` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM green_product pro LEFT JOIN green_product_cate AS cate ON pro.procate_id = cate.procate_id  ORDER BY pro.product_id DESC LIMIT 14,7   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-22T12:51:38+08:00 ] 127.0.0.1 /GreenCMS/index.php/Admin/Product/index/p/4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\phpStudy\WWW\GreenCMS\ThinkPHP\Common\functions.php 第 1272 行.
+SQL: SHOW COLUMNS FROM `green_product` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `green_product_cate` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `green_product` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM green_product pro LEFT JOIN green_product_cate AS cate ON pro.procate_id = cate.procate_id  ORDER BY pro.product_id DESC LIMIT 21,7   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-22T12:51:51+08:00 ] 127.0.0.1 /GreenCMS/index.php/Admin/Product/index/p/4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\phpStudy\WWW\GreenCMS\ThinkPHP\Common\functions.php 第 1272 行.
+SQL: SHOW COLUMNS FROM `green_product` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `green_product_cate` [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `green_product` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM green_product pro LEFT JOIN green_product_cate AS cate ON pro.procate_id = cate.procate_id  ORDER BY pro.product_id DESC LIMIT 21,7   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-22T12:51:52+08:00 ] 127.0.0.1 /GreenCMS/index.php/Admin/Product/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\phpStudy\WWW\GreenCMS\ThinkPHP\Common\functions.php 第 1272 行.
+SQL: SHOW COLUMNS FROM `green_product` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `green_product_cate` [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `green_product` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM green_product pro LEFT JOIN green_product_cate AS cate ON pro.procate_id = cate.procate_id  ORDER BY pro.product_id DESC LIMIT 0,7   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-22T12:51:54+08:00 ] 127.0.0.1 /GreenCMS/index.php/Admin/Product/index/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\phpStudy\WWW\GreenCMS\ThinkPHP\Common\functions.php 第 1272 行.
+SQL: SHOW COLUMNS FROM `green_product` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `green_product_cate` [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `green_product` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM green_product pro LEFT JOIN green_product_cate AS cate ON pro.procate_id = cate.procate_id  ORDER BY pro.product_id DESC LIMIT 7,7   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-22T12:51:57+08:00 ] 127.0.0.1 /GreenCMS/index.php/Admin/Product/index/p/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\phpStudy\WWW\GreenCMS\ThinkPHP\Common\functions.php 第 1272 行.
+SQL: SHOW COLUMNS FROM `green_product` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `green_product_cate` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `green_product` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM green_product pro LEFT JOIN green_product_cate AS cate ON pro.procate_id = cate.procate_id  ORDER BY pro.product_id DESC LIMIT 14,7   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-22T12:51:59+08:00 ] 127.0.0.1 /GreenCMS/index.php/Admin/Product/index/p/4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\phpStudy\WWW\GreenCMS\ThinkPHP\Common\functions.php 第 1272 行.
+SQL: SHOW COLUMNS FROM `green_product` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `green_product_cate` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `green_product` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM green_product pro LEFT JOIN green_product_cate AS cate ON pro.procate_id = cate.procate_id  ORDER BY pro.product_id DESC LIMIT 21,7   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-22T12:52:11+08:00 ] 127.0.0.1 /GreenCMS/index.php/Admin/Product/index/p/4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\phpStudy\WWW\GreenCMS\ThinkPHP\Common\functions.php 第 1272 行.
+SQL: SHOW COLUMNS FROM `green_product` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `green_product_cate` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `green_product` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM green_product pro LEFT JOIN green_product_cate AS cate ON pro.procate_id = cate.procate_id  ORDER BY pro.product_id DESC LIMIT 21,7   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-22T12:52:13+08:00 ] 127.0.0.1 /GreenCMS/index.php/Admin/Product/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\phpStudy\WWW\GreenCMS\ThinkPHP\Common\functions.php 第 1272 行.
+SQL: SHOW COLUMNS FROM `green_product` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `green_product_cate` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `green_product` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM green_product pro LEFT JOIN green_product_cate AS cate ON pro.procate_id = cate.procate_id  ORDER BY pro.product_id DESC LIMIT 0,7   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-22T12:52:15+08:00 ] 127.0.0.1 /GreenCMS/index.php/Admin/Product/index/p/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\phpStudy\WWW\GreenCMS\ThinkPHP\Common\functions.php 第 1272 行.
+SQL: SHOW COLUMNS FROM `green_product` [ RunTime:0.0090s ]
+SQL: SHOW COLUMNS FROM `green_product_cate` [ RunTime:0.0080s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `green_product` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM green_product pro LEFT JOIN green_product_cate AS cate ON pro.procate_id = cate.procate_id  ORDER BY pro.product_id DESC LIMIT 14,7   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-22T12:52:18+08:00 ] 127.0.0.1 /GreenCMS/index.php/Admin/product/edit/product_id/17.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\phpStudy\WWW\GreenCMS\ThinkPHP\Common\functions.php 第 1272 行.
+SQL: SHOW COLUMNS FROM `green_product` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `green_product_cate` [ RunTime:0.0060s ]
+SQL: SELECT * FROM green_product pro INNER JOIN green_product_cate AS cate ON pro.procate_id = cate.procate_id  WHERE ( pro.product_id = 17 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `green_product` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `green_product_cate`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-22T12:52:28+08:00 ] 127.0.0.1 /GreenCMS/index.php/Admin/product/edit/product_id/17.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\phpStudy\WWW\GreenCMS\ThinkPHP\Common\functions.php 第 1272 行.
+SQL: SHOW COLUMNS FROM `green_product` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `green_product_cate` [ RunTime:0.0050s ]
+SQL: SELECT * FROM green_product pro INNER JOIN green_product_cate AS cate ON pro.procate_id = cate.procate_id  WHERE ( pro.product_id = 17 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `green_product` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `green_product_cate`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-22T12:52:32+08:00 ] 127.0.0.1 /GreenCMS/index.php/Admin/product/edit/product_id/17.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\phpStudy\WWW\GreenCMS\ThinkPHP\Common\functions.php 第 1272 行.
+SQL: SHOW COLUMNS FROM `green_product` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `green_product_cate` [ RunTime:0.0070s ]
+SQL: SELECT * FROM green_product pro INNER JOIN green_product_cate AS cate ON pro.procate_id = cate.procate_id  WHERE ( pro.product_id = 17 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `green_product` [ RunTime:0.0070s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\GreenCMS\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\GreenCMS\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\phpStudy\WWW\GreenCMS\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: UPDATE `green_product` SET `product_name`='',`product_time`='-28800',`product_desc`='',`product_content`='',`procate_id`='0',`product_img`='Uploads/2017-08-22/599bb8906e1fe.jpg' WHERE `product_id` = 17 [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-22T12:52:33+08:00 ] 127.0.0.1 /GreenCMS/index.php/Admin/product/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\phpStudy\WWW\GreenCMS\ThinkPHP\Common\functions.php 第 1272 行.
+SQL: SHOW COLUMNS FROM `green_product` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `green_product_cate` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `green_product` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM green_product pro LEFT JOIN green_product_cate AS cate ON pro.procate_id = cate.procate_id  ORDER BY pro.product_id DESC LIMIT 0,7   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-22T12:52:39+08:00 ] 127.0.0.1 /GreenCMS/index.php/Admin/product/edit/product_id/31.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\phpStudy\WWW\GreenCMS\ThinkPHP\Common\functions.php 第 1272 行.
+SQL: SHOW COLUMNS FROM `green_product` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `green_product_cate` [ RunTime:0.0050s ]
+SQL: SELECT * FROM green_product pro INNER JOIN green_product_cate AS cate ON pro.procate_id = cate.procate_id  WHERE ( pro.product_id = 31 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `green_product` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `green_product_cate`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-22T12:53:17+08:00 ] 127.0.0.1 /GreenCMS/index.php/Admin/login/logout/action/logout.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `green_admin` [ RunTime:0.0070s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\phpStudy\WWW\GreenCMS\ThinkPHP\Common\functions.php 第 1272 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-22T12:53:18+08:00 ] 127.0.0.1 /GreenCMS/index.php/Admin/login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `green_admin` [ RunTime:0.0060s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\phpStudy\WWW\GreenCMS\ThinkPHP\Common\functions.php 第 1272 行.
+SQL: SHOW COLUMNS FROM `green_admin` [ RunTime:0.0060s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.045003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-22T12:53:18+08:00 ] 127.0.0.1 /GreenCMS/index.php/Admin/login/imgcode.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `green_admin` [ RunTime:0.0080s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\phpStudy\WWW\GreenCMS\ThinkPHP\Common\functions.php 第 1272 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-22T12:53:25+08:00 ] 127.0.0.1 /GreenCMS/index.php/Admin/login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `green_admin` [ RunTime:0.0050s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\phpStudy\WWW\GreenCMS\ThinkPHP\Common\functions.php 第 1272 行.
+SQL: SHOW COLUMNS FROM `green_admin` [ RunTime:0.0050s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\GreenCMS\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\GreenCMS\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: SELECT * FROM `green_admin` WHERE `admin_name` = 'admin' AND `admin_pwd` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-22T12:53:26+08:00 ] 127.0.0.1 /GreenCMS/index.php/Admin/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\phpStudy\WWW\GreenCMS\ThinkPHP\Common\functions.php 第 1272 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-22T12:53:28+08:00 ] 127.0.0.1 /GreenCMS/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\phpStudy\WWW\GreenCMS\ThinkPHP\Common\functions.php 第 1272 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-22T12:53:29+08:00 ] 127.0.0.1 /GreenCMS/index.php/Admin/Article/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\phpStudy\WWW\GreenCMS\ThinkPHP\Common\functions.php 第 1272 行.
+SQL: SHOW COLUMNS FROM `green_article` [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `green_article` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `green_article` ORDER BY article_id LIMIT 0,7   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-22T12:53:31+08:00 ] 127.0.0.1 /GreenCMS/index.php/Admin/config/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `green_config` [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `green_config` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `green_config` ORDER BY config_id LIMIT 0,7   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-22T12:53:32+08:00 ] 127.0.0.1 /GreenCMS/index.php/Admin/Procate/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `green_product_cate` [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `green_product_cate` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `green_product_cate` ORDER BY procate_id LIMIT 0,7   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-22T12:53:32+08:00 ] 127.0.0.1 /GreenCMS/index.php/Admin/Product/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\phpStudy\WWW\GreenCMS\ThinkPHP\Common\functions.php 第 1272 行.
+SQL: SHOW COLUMNS FROM `green_product` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `green_product_cate` [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `green_product` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM green_product pro LEFT JOIN green_product_cate AS cate ON pro.procate_id = cate.procate_id  ORDER BY pro.product_id DESC LIMIT 0,7   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-22T12:53:34+08:00 ] 127.0.0.1 /GreenCMS/index.php/Admin/product/edit/product_id/31.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\phpStudy\WWW\GreenCMS\ThinkPHP\Common\functions.php 第 1272 行.
+SQL: SHOW COLUMNS FROM `green_product` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `green_product_cate` [ RunTime:0.0080s ]
+SQL: SELECT * FROM green_product pro INNER JOIN green_product_cate AS cate ON pro.procate_id = cate.procate_id  WHERE ( pro.product_id = 31 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `green_product` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `green_product_cate`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-22T13:15:30+08:00 ] 127.0.0.1 /GreenCMS/index.php/Admin/product/edit/product_id/31.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\phpStudy\WWW\GreenCMS\ThinkPHP\Common\functions.php 第 1272 行.
+SQL: SHOW COLUMNS FROM `green_product` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `green_product_cate` [ RunTime:0.0060s ]
+SQL: SELECT * FROM green_product pro INNER JOIN green_product_cate AS cate ON pro.procate_id = cate.procate_id  WHERE ( pro.product_id = 31 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `green_product` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `green_product_cate`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-22T13:15:31+08:00 ] 127.0.0.1 /GreenCMS/index.php/Admin/product/edit/product_id/31.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\phpStudy\WWW\GreenCMS\ThinkPHP\Common\functions.php 第 1272 行.
+SQL: SHOW COLUMNS FROM `green_product` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `green_product_cate` [ RunTime:0.0070s ]
+SQL: SELECT * FROM green_product pro INNER JOIN green_product_cate AS cate ON pro.procate_id = cate.procate_id  WHERE ( pro.product_id = 31 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `green_product` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `green_product_cate`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-22T13:15:34+08:00 ] 127.0.0.1 /GreenCMS/index.php/Admin/product/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\phpStudy\WWW\GreenCMS\ThinkPHP\Common\functions.php 第 1272 行.
+SQL: SHOW COLUMNS FROM `green_product` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `green_product_cate` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `green_product` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM green_product pro LEFT JOIN green_product_cate AS cate ON pro.procate_id = cate.procate_id  ORDER BY pro.product_id DESC LIMIT 0,7   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-22T13:15:37+08:00 ] 127.0.0.1 /GreenCMS/index.php/Admin/Product/index/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\phpStudy\WWW\GreenCMS\ThinkPHP\Common\functions.php 第 1272 行.
+SQL: SHOW COLUMNS FROM `green_product` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `green_product_cate` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `green_product` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM green_product pro LEFT JOIN green_product_cate AS cate ON pro.procate_id = cate.procate_id  ORDER BY pro.product_id DESC LIMIT 7,7   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-22T13:15:41+08:00 ] 127.0.0.1 /GreenCMS/index.php/Admin/product/edit/product_id/18.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\phpStudy\WWW\GreenCMS\ThinkPHP\Common\functions.php 第 1272 行.
+SQL: SHOW COLUMNS FROM `green_product` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `green_product_cate` [ RunTime:0.0060s ]
+SQL: SELECT * FROM green_product pro INNER JOIN green_product_cate AS cate ON pro.procate_id = cate.procate_id  WHERE ( pro.product_id = 18 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `green_product` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `green_product_cate`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-22T13:20:07+08:00 ] 127.0.0.1 /GreenCMS/index.php/Admin/product/edit/product_id/18.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\phpStudy\WWW\GreenCMS\ThinkPHP\Common\functions.php 第 1272 行.
+SQL: SHOW COLUMNS FROM `green_product` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `green_product_cate` [ RunTime:0.0060s ]
+SQL: SELECT * FROM green_product pro INNER JOIN green_product_cate AS cate ON pro.procate_id = cate.procate_id  WHERE ( pro.product_id = 18 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `green_product` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `green_product_cate`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+

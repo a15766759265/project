@@ -1,0 +1,12 @@
+[ 2017-05-23T10:36:35+08:00 ] ::1 /GreenCMS/Public/home/images/touming.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2017-05-23T15:11:20+08:00 ] ::1 /GreenCMS/Public/home/images/touming.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+

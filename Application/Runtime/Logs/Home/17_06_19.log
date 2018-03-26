@@ -1,0 +1,116 @@
+[ 2017-06-19T23:27:32+08:00 ] 127.0.0.1 /GreenCMS/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.221013s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010000s ]
+SQL: SHOW COLUMNS FROM `green_article` [ RunTime:0.5920s ]
+SQL: SHOW COLUMNS FROM `green_contact` [ RunTime:0.0810s ]
+SQL: SHOW COLUMNS FROM `green_product` [ RunTime:0.0880s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `green_article` LIMIT 1   [ RunTime:0.1440s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `green_product` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `green_article` ORDER BY article_id LIMIT 1   [ RunTime:0.0060s ]
+SQL: SELECT * FROM `green_article` ORDER BY article_id LIMIT 0,6   [ RunTime:0.1090s ]
+SQL: SELECT * FROM `green_contact` ORDER BY contact_id LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `green_product` ORDER BY product_id LIMIT 0,6   [ RunTime:0.0230s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.071004s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.071004s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.561032s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.561032s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.083005s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.083005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.132008s ]
+INFO: [ app_end ] --END-- [ RunTime:0.132008s ]
+
+[ 2017-06-19T23:27:33+08:00 ] 127.0.0.1 /GreenCMS/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `green_article` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `green_contact` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `green_product` [ RunTime:0.0080s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `green_article` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `green_product` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `green_article` ORDER BY article_id LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `green_article` ORDER BY article_id LIMIT 0,6   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `green_contact` ORDER BY contact_id LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `green_product` ORDER BY product_id LIMIT 0,6   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-19T23:27:33+08:00 ] 127.0.0.1 /GreenCMS/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `green_article` [ RunTime:0.0090s ]
+SQL: SHOW COLUMNS FROM `green_contact` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `green_product` [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `green_article` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `green_product` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `green_article` ORDER BY article_id LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `green_article` ORDER BY article_id LIMIT 0,6   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `green_contact` ORDER BY contact_id LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `green_product` ORDER BY product_id LIMIT 0,6   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-19T23:27:33+08:00 ] 127.0.0.1 /GreenCMS/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `green_article` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `green_contact` [ RunTime:0.0090s ]
+SQL: SHOW COLUMNS FROM `green_product` [ RunTime:0.0090s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `green_article` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `green_product` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `green_article` ORDER BY article_id LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `green_article` ORDER BY article_id LIMIT 0,6   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `green_contact` ORDER BY contact_id LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `green_product` ORDER BY product_id LIMIT 0,6   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+

@@ -1,0 +1,99 @@
+
+<div class="fullSlide">   
+  <div class="bd">
+    <ul>
+      <li><a href="javascript:void();"><img src="__PUBLIC__/home/images/banner.png"></a></li>
+      <li><a href="javascript:void();"><img src="__PUBLIC__/home/images/banner.png"></a></li>
+      <li><a href="javascript:void();"><img src="__PUBLIC__/home/images/banner.png"></a></li>
+    </ul>
+  </div>
+  <div class="hd"><ul></ul></div>
+</div>
+<script type="text/javascript">
+    jQuery(".fullSlide").slide({ titCell:".hd ul", mainCell:".bd ul", effect:"fold",  autoPlay:true, autoPage:true, trigger:"click" });
+  </script>
+
+<div  class="about">
+  <div class="inner">
+      <div class="left">
+          <div class="head">
+          <h1>{$article_list.article_title}</h1><small>ABOUT</small>
+            </div>
+            <div class="con">
+              <img class="l_img" src="__PUBLIC__/home/images/about.png" />
+              <p>{$article_list.article_desc} </p>
+                <div class="more1">
+                  查看详情>>
+                </div>
+                <div class="clear"></div>
+            </div>
+        </div>
+        <div class="right">
+          <div class="head">
+          <h1>联系方式</h1><small>CONTACT</small>
+            </div>
+            <div class="con">
+              <img src="__PUBLIC__/home/images/lxwm.png" />
+              <dl>
+                  <dt>地址：</dt><dd>广州市白云区江高镇泉溪工业区88号</dd>
+                    <dt>手机：</dt><dd>{$contact_list.contact_phone} 李小姐</dd>
+                    <dt>手机：</dt><dd>{$contact_list.contact_phone}</dd>
+                    <dt>电话：</dt><dd>{$contact_list.contact_phone}</dd>
+                </dl>
+            </div>
+        </div>
+    </div>
+</div >
+
+<div  class="news">
+  <div class="inner">
+      <div class="left">
+          <div class="head">
+          <h1>新闻中心</h1><small>NEWS</small>
+            </div>
+            <div class="con">
+              <div class="news_box">
+                  <ul>
+                  <foreach name="article_info" item="item">
+                      <li><a href="#">{$item.article_title}</a><span class="time">{$item.article_time|date='Y-m-d',###}</span></li>
+                   </foreach>>  
+                  </ul>
+                </div>
+                <div class="qh">
+                  <span class="prev">&nbsp;</span>
+                    <span class="next">&nbsp;</span>
+                </div>
+                <div class="clear"></div>
+            </div>
+        </div>
+        <div class="right">
+          <div class="head">
+          <h1>快捷入口</h1><small>&nbsp;</small>
+            </div>
+            <div class="con">
+              <div class="tab">
+                  <ul>
+                      <li class="cur">留言板</li>
+                        <li>计算机</li>
+                        <li>产品</li>
+                    </ul>
+                    <span class="toright"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div >
+
+<div class="yw">
+  <div class="inner">
+        <ul>
+
+        <foreach name="product_info" item="item">
+          <li>
+              <img src="__PUBLIC__/home/images/p1.png">
+                <div class="name">{$item.product_name}</div>
+            </li>
+        </foreach>
+        </ul>
+    </div>
+</div>

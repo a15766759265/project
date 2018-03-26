@@ -1,0 +1,26 @@
+<div class="navbar">
+    <div class="navbar-inner">
+            <ul class="nav pull-right">
+                <li>
+                    <a href="#" role="button">
+                        <i class="icon-user"></i> {$Think.session.admin_name}
+                    </a>
+                </li>
+                <li><a href="{:U('login/logout',array('action'=>'logout'))}" class="hidden-phone visible-tablet visible-desktop" role="button">Logout</a></li>
+            </ul>
+            <a class="brand" href="index.html"><span class="first">Blog</span> <span class="second">Admin</span></a>
+    </div>
+</div>
+
+<div class="sidebar-nav">
+    <a href="#dashboard-menu" class="nav-header" data-toggle="collapse"><i class="icon-dashboard"></i>控制面板</a>
+    <ul id="dashboard-menu" class="nav nav-list collapse in">
+        <li><a href="{:U('Index/index')}">首页</a></li>
+        <li ><a href="{:U('Article/index')}">文章管理</a></li>
+        <li ><a href="{:U('Product/index')}">产品管理</a></li>
+        <li ><a href="{:U('Procate/index')}">产品分类管理</a></li>
+        <li ><a href="{:U('config/index')}">设置管理</a></li>
+        <li ><a href="{:U('Contact/index')}">留言管理</a></li>
+        <li ><a href="{:U('admin/index')}">管理员</a></li>
+    </ul>
+</div>

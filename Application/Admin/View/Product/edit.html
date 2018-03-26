@@ -1,0 +1,68 @@
+<div class="content">
+    <div class="header">
+        <h1 class="page-title">添加产品</h1>
+    </div>
+            <ul class="breadcrumb">
+        <li><a href="index.html">Home</a> <span class="divider">/</span></li>
+        <li class="active">添加产品</li>
+    </ul>
+
+    <div class="container-fluid">
+        <div class="row-fluid">
+                                
+            <div class="btn-toolbar">
+                <button class="btn btn-primary" onClick="location='{:U('product/index')}'"><i class="icon-list"></i> 产品列表</button>
+              <div class="btn-group">
+              </div>
+            </div>
+            <div class="well">
+                <div id="myTabContent" class="tab-content">
+                  <div class="tab-pane active in" id="home">
+                    <form action="#" method="post" enctype="multipart/form-data">
+                        
+                        <label>产品名称</label>
+                        <input type="text" value="{$product_info.product_name}" name="product_name" class="input-xxlarge">
+                        <label>添加时间</label>
+                        <input type="date" value="{$product_info.product_time|date='Y-m-d',###}" name="product_time" class="input-xxlarge">
+                        <label>产品图片</label>
+                        <input type="file" value="" name="product_img" class="input-xxlarge">
+                        <if condition="$product_info['product_img'] neq ''">
+                            <img src="__ROOT__/public/{$product_info.product_img}" style="width:100px;height:100px;">
+                        </if>
+                        <label>产品描述</label>
+                        <textarea value="Smith" name="product_desc" rows="3" class="input-xxlarge">{$product_info.product_desc}</textarea>
+                        <label>产品内容</label>
+                        <textarea value="Smith" name="product_content" rows="3" class="input-xxlarge">{$product_info.product_content}</textarea>
+                        <label>产品分类</label>
+                        <select name="procate_id" class="input-xlarge">
+                          <option value="">请选择</option>
+                          <foreach name="procate_list" item="item">
+                          <option {$product_info['procate_id']==$item['procate_id']?"selected":""} value="{$item.procate_id}">{$item.procate_name}</option>
+                          </foreach>
+                          
+                        </select>
+                        <label></label>
+                        <input class="btn btn-primary" type="submit" value="提交" />
+                    </form>
+                  </div>
+              </div>
+
+            </div>
+
+            <div class="modal small hide fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                <h3 id="myModalLabel">Delete Confirmation</h3>
+              </div>
+              <div class="modal-body">
+                
+                <p class="error-text"><i class="icon-warning-sign modal-icon"></i>Are you sure you want to delete the user?</p>
+              </div>
+              <div class="modal-footer">
+                <button class="btn" data-dismiss="modal" aria-hidden="true">Cancel</button>
+                <button class="btn btn-danger" data-dismiss="modal">Delete</button>
+              </div>
+            </div>
+        </div>
+    </div>
+</div>

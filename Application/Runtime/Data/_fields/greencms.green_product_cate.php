@@ -1,0 +1,1 @@
+a:4:{i:0;s:10:"procate_id";i:1;s:12:"procate_name";s:3:"_pk";s:10:"procate_id";s:5:"_type";a:2:{s:10:"procate_id";s:7:"int(11)";s:12:"procate_name";s:12:"varchar(255)";}}

@@ -1,0 +1,44 @@
+<div class="main">
+    <div class="inner">
+        <!--菜单-->
+        <div class="left_nav">
+            <div class="head">
+                <h1>产品展示<span class="icon"><img src="__PUBLIC__/home/images/jian1.png" /></span></h1>
+            </div>
+            <div class="con">
+                <ul>
+                 <foreach name="procate_list" item="item">
+                    <li class="cur">
+                    <a href="{:U('product/index',array('procate_id'=>$item['procate_id']))}">{$item.procate_name}</a><span class="icon"><img src="__PUBLIC__/home/images/plus.png" />
+                    </li>
+                 </foreach> 
+                    <div class="clear"></div>
+                </ul>
+            </div>
+        </div>
+        <!--产品列表-->
+        <div class="right_con">
+            <h2><a href="#">首页><a href="#">产品展示></a><a class="cursite">钢化玻璃</a></h2>
+            <div class="content">
+                <h3>钢化玻璃</h3>
+                <ul class="ul_prod">
+                <foreach  name="product_info" item='item'>
+                    <li>
+                        <img src="__PUBLIC__/{$item.product_img}" />
+                        <div class="tit">{$item.product_name}</div>
+                    </li>
+                  </foreach>
+                </ul>
+               <div class="clear"></div>
+               <div class="fenye">
+                <ul>
+                   {$page_str}
+                    <div class="clear"></div>
+                </ul>
+               </div>
+            </div>
+            <div class="clear"></div>
+        </div>
+        <div class="clear"></div>
+    </div>
+</div>
